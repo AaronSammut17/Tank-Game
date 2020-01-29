@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
-
+    
     void Die(){
 
         EnemyCounter.enemyCount += 1;

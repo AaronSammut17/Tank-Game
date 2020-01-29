@@ -1,4 +1,4 @@
 sceneSetups:
-- path: D:/Mcast/Mcast lvl 5 yr 2/Game Engine(unity)/unity_minesweeper/game_minesweeper/Minesweeper/Assets/Scenes/lvl1.unity
+- path: Assets/Scenes/Lvl2.unity
   isLoaded: 1
   isActive: 1
