@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Patrol.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Shooting.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/aaron/OneDrive/Desktop/Tank-Game/Tank Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
