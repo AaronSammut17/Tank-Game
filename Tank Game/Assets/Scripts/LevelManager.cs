@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {	
-	string sceneName;
-
+	public static string sceneName;
 
 	void Start(){
         Scene currentScene = SceneManager.GetActiveScene();
