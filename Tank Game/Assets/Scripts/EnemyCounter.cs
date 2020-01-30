@@ -9,26 +9,18 @@ public class EnemyCounter : MonoBehaviour
     
     public static int enemyCount = 0;
     Text enemy;
-    string sceneName;
-
+    public static string totalEnemies = "00";
+    
     void Start(){
-        Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;
 
         enemy = GetComponent<Text>();
+
     }
     
     // Update is called once per frame
     void Update()
     {
-        enemy.text = "Enemies: "+enemyCount;
+        enemy.text = "Enemies: "+enemyCount+" / "+totalEnemies;
 
-        if(enemyCount == 18 && sceneName == "Lvl2"){
-            SceneManager.LoadScene("Lvl3");
-        }
-
-        else if(enemyCount == 23 && sceneName == "Lvl3"){
-            SceneManager.LoadScene("Win");
-        }
     }
 }
